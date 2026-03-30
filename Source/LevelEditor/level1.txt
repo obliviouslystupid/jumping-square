@@ -1,0 +1,63 @@
+24[object count]
+910
+700
+100
+100
+0
+100
+1820
+100
+16[platform count]
+14
+344
+50
+0
+0
+788 800
+1132 625
+1476 450
+1132 275
+788 100
+444 -75
+100 -250
+444 -425
+788 -600
+1132 -775
+1476 -950
+100 -1250
+1132 -1550
+1132 -3175
+2[r]
+10
+50
+0
+0
+100 -2100
+100 -2625
+0[trap count]
+0[barrier count]
+0[enemy count]
+2[exit count]
+2
+1204
+200
+400
+-1950
+2
+-3575
+3
+3[hint count]
+76
+You find yourself in an unfamiliar place
+            (Press w/up to jump)
+400
+500
+47
+  You can double jump
+(Press w/up in midair)
+700
+-1200
+12
+To level 3
+1220
+-3700

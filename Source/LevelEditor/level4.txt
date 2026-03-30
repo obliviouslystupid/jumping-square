@@ -1,0 +1,40 @@
+10[object count]
+910
+700
+100
+100
+0
+100
+1820
+100
+5[platform count]
+2
+344
+50
+0
+0
+788 800
+1104 -450
+3[r]
+344
+50
+1
+0
+344 650
+1376 350
+200 0
+0[trap count]
+0[barrier count]
+0[enemy count]
+1[exit count]
+1
+1176
+200
+400
+-850
+5
+1[hint count]
+38
+Try to keep up with moving platforms
+600
+500

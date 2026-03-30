@@ -1,0 +1,48 @@
+10[object count]
+910
+700
+100
+100
+0
+100
+1820
+100
+4[platform count]
+1
+1720
+300
+0
+0
+100 800
+2[r]
+30
+50
+0
+0
+100 300
+1790 300
+1[r]
+344
+50
+0
+0
+788 -200
+0[trap count]
+0[barrier count]
+0[enemy count]
+1[exit count]
+1
+860
+200
+400
+-600
+1
+2[hint count]
+44
+Thank you for playing! -Obliviously Stupid
+580
+500
+13
+Play again?
+850
+-700

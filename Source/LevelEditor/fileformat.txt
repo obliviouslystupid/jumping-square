@@ -1,0 +1,61 @@
+DATA FILE FORMAT
+--------------
+Uint8 - number of objects (N)
+Uint16 - player x
+Uint16 - player y
+Uint16 - player width
+Uint16 - player height
+2 times (left first, right second):
+    Uint16 - wall x
+    Uint16 - wall width
+Uint8 - number of platforms (n)
+Uint8 - times to use following data (r):
+    Uint16 - platform width
+    Uint16 - platform height
+    Uint8 - platform movement direction (0: stationary, 1: left, 2: right)
+    Uint8 - platform shrinking boolean (0: not shrinking, 1: shrinking)
+    (UNIQUE DATA) Uint16 - platform x
+    (UNIQUE DATA) Sint32 - platform y
+----if r < n then:
+        Uint8 - times to use following data (r) ...
+Uint8 - number of traps (n)
+Uint8 - times to use following data (r):
+    Uint8 - trap side (0: left, 1: right)
+    Uint16 - trap body height
+    Uint8 - cycle starting position
+    (UNIQUE DATA) Sint32 - trap y
+----if r < n then:
+        Uint8 - times to use following data (r) ...
+Uint8 - number of barriers (n)
+Uint8 - times to use following data(r):
+    Uint16 - barrier x
+    Uint16 - barrier width
+    Uint16 - barrier height
+    (UNIQUE DATA) Sint32 - barrier y
+----if r < n then:
+        Uint8 - times to use following data (r) ...
+Uint8 - number of enemies (n)
+Uint8 - times to use following data (r):
+    Uint16 - enemy width
+    Uint16 - enemy height
+    Uint8 - cycle starting position
+    (UNIQUE DATA) - Uint16 - enemy x
+    (UNIQUE DATA) - Sint32 - enemy y
+----if r < n then:
+        Uint8 - times to use following data (r) ...
+Uint8 - number of exits (n)
+Uint8 - times to use the following data (r):
+    Uint16 - exit x
+    Uint16 - exit width
+    Uint16 - exit height
+    (UNIQUE DATA) Sint32 - exit y
+    (UNIQUE DATA) Uint8 - exit level
+Uint8 - number of hints (n)
+n times:
+    (UNIQUE DATA) Uint8 - hint length (l)
+    (UNIQUE DATA) l chars - hint text
+    (UNIQUE DATA) Uint16 - hint x
+    (UNIQUE DATA) Sint32 - hint y
+
+If r > n || n > N || n + n + ... > N || N < 4 (1 player 2 walls 1 exit) then:
+    won't "compile"

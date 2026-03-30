@@ -1,0 +1,51 @@
+15[object count]
+1254
+700
+100
+100
+0
+100
+1820
+100
+10[platform count]
+1
+1720
+50
+0
+0
+100 800
+8[r]
+344
+50
+0
+1
+100 625
+788 625
+1476 625
+444 400
+1132 100
+444 -300
+1132 -600
+444 -900
+1[r]
+688
+50
+0
+0
+1132 -1300
+0[trap count]
+0[barrier count]
+0[enemy count]
+1[exit count]
+1
+1548
+200
+400
+-1700
+7
+1[hint count]
+82
+                        Be careful!
+These platforms shrink when you touch them!
+860
+400

@@ -1,0 +1,43 @@
+13[object count]
+222
+700
+100
+100
+0
+100
+1820
+100
+6[platform count]
+6
+344
+50
+0
+0
+100 800
+1476 400
+1476 0
+100 -200
+1476 -600
+100 -800
+0[trap count]
+2[barrier count]
+2
+935
+100
+400
+-200
+-1150
+0[enemy count]
+1[exit count]
+1
+172
+200
+400
+-1200
+11
+1[hint count]
+59
+    Barriers like this can
+make maneuvering a challenge!
+200
+0

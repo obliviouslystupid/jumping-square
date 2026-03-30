@@ -1,0 +1,35 @@
+10[object count]
+910
+700
+100
+100
+0
+100
+1820
+100
+5[platform count]
+5
+344
+50
+0
+0
+788 800
+344 650
+1376 350
+200 0
+1104 -450
+0[trap count]
+0[barrier count]
+0[enemy count]
+1[exit count]
+1
+1176
+200
+400
+-850
+3
+1[hint count]
+25
+You can triple jump too
+700
+-200
